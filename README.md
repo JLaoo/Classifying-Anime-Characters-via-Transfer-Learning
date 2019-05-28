@@ -35,3 +35,5 @@ Overall a fun little project that I enjoyed working on. I chose New Game! since 
 - Increase size of dataset.
 - Tune hyperparameters.
 - Check that the python scripts work (I've only tested the ipynb).
+
+Copyright for all images are owned by their respective creators.
