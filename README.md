@@ -23,10 +23,10 @@ Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/b
 - Again, the lack of data is the biggest limitation at this step, but nothing I'm too lazy to go find more data.
 
 As we can see below, the accuracy for the training set is quite high!
-![30 predictions in the test set](https://i.imgur.com/xBwfcPG.png)
+![30 predictions in the training set](https://i.imgur.com/jeq92EF.png)
 
 The accuracy for the test set is not as high, but still respectable!
-![30 predictions in the training set](https://i.imgur.com/jeq92EF.png)
+![30 predictions in the test set](https://i.imgur.com/xBwfcPG.png)
 
 # Remarks
 Overall a fun little project that I enjoyed working on. I chose New Game! since it's probably the closest there is to an anime about software engineering. Got familiar with TensorFlow (I had only used SKLearn before this) and also got my first taste of neural nets and image classification.
