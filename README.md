@@ -1,6 +1,6 @@
 Link to original repository: https://github.com/JLaoo/Classifying-Waifus-via-Transfer-Learning
 
-# Classifying Waifus via Transfer Learning
+# Classifying the characters of New Game! via Transfer Learning
 
 Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/blog/posts/flag-15-image-recognition-for-anime-characters
 
