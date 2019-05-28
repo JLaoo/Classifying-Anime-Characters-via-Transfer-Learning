@@ -21,6 +21,12 @@ Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/b
 - Trained with 20 epochs at first, got like 60% accuracy probably due to overfitting. Changed it to 10 epochs and got >90% accuracy.
 - Again, the lack of data is the biggest limitation at this step, but nothing I can do about that :/
 
+As we can see below, the accuracy for the training set is very high!
+![30 predictions in the test set](https://i.imgur.com/QhkGtfl.png)
+
+The accuracy for the test set is not as high, but still respectable!
+![30 predictions in the training set](https://i.imgur.com/e8UwVDB.png)
+
 # Remarks
 Overall a fun little project that I enjoyed working on. I chose New Game! since it's probably the closest there is to an anime about software engineering. Got familiar with TensorFlow (I had only used SKLearn before this) and also got my first taste of neural nets.
 
