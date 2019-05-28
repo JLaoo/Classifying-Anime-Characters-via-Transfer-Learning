@@ -11,6 +11,7 @@ Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/b
 - Saves these images in local directories.
 2) detect_faces.ipynb
 - Using nagadomi's lbpcascade_animeface (https://github.com/nagadomi/lbpcascade_animeface) we can detect faces and save the cropped results to yet another local directory.
+- Some faces aren't able to be detected. Nagadomi has a more accurate face detector released (https://github.com/nagadomi/animeface-2009) but runtime is a lot slower and it's more difficult to implement.
 3) resize_cropped.ipynb
 - Resizes all of the images into 96x96 squares. Not sure if this step is actually ncessary since TensorFlow resizes images anyways, but I didn't think that far ahead at this step.
 - I had to manually clean the resized images after this step since lbpcascade_animeface isn't 100% accurate and some pictures contained multiple faces.
