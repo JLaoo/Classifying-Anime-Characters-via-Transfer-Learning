@@ -37,3 +37,5 @@ Overall a fun little project that I enjoyed working on. I chose New Game! since 
 - Check that the python scripts work (I've only tested the ipynb).
 
 Copyright for all images are owned by their respective creators.
+lbpcascade_animeface.xml is created by nagadomi/lbpcascade_animeface.
+Heavily influenced by Freedomofkeima (https://github.com/freedomofkeima)
