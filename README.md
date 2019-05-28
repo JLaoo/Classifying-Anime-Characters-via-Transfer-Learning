@@ -14,7 +14,7 @@ Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/b
 - Some faces aren't able to be detected. Nagadomi has a more accurate face detector released (https://github.com/nagadomi/animeface-2009) but runtime is a lot slower and it's more difficult to implement.
 3) resize_cropped.ipynb
 - Resizes all of the images into 96x96 squares. Not sure if this step is actually ncessary since TensorFlow resizes images anyways, but I didn't think that far ahead at this step.
-- I had to manually clean the resized images after this step since lbpcascade_animeface isn't 100% accurate and some pictures contained multiple faces.
+- I had to manually clean the resized images after this step since lbpcascade_animeface isn't 100% accurate and some pictures contained multiple faces. I wasn't too careful while cleaning so there might be some inaccurate datapoints and duplicates, but it's probably(?) negligible.
 4) split_dataset.ipynb
 - Splits images into training and test sets. My dataset really wasn't that large so most inaccuracies in the model can probably be attributed to the lack of data.
 - For each character, I had 85% (rounded down) of their faces as training data and the rest as test data.
