@@ -15,6 +15,7 @@ Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/b
 3) resize_cropped
 - Resizes all of the images into 96x96 squares. Not sure if this step is actually necessary since TensorFlow resizes images anyways, but I didn't think that far ahead at this step.
 - I had to manually clean the resized images after this step since lbpcascade_animeface isn't 100% accurate and some pictures contained multiple faces. I wasn't too careful while cleaning so there might be some inaccurate datapoints and duplicates, but it's probably(?) negligible.
+-Ideally, I'd have an equal amount of faces in each category to avoid biasing, but doing so would've cut my dataset by like 1/10 so I'm just going to assume that the bias is also reflective of the popularity of the character and thus also representative of the likelihood of a specific character being passed into the model.
 4) split_dataset
 - Splits images into training and test sets. My dataset really wasn't that large so most inaccuracies in the model can probably be attributed to the lack of data.
 - For each character, I had 85% (rounded down) of their faces as training data and the rest as test data.
@@ -40,4 +41,4 @@ Copyright for all images are owned by their respective creators.
 
 lbpcascade_animeface.xml is created by nagadomi/lbpcascade_animeface.
 
-Heavily influenced by Freedomofkeima (https://github.com/freedomofkeima)
+Influenced by Freedomofkeima (https://github.com/freedomofkeima)
