@@ -1,4 +1,4 @@
-Link to original repository: https://github.com/JLaoo/Classifying-Waifus-via-Transfer-Learning
+Link to original repository: https://github.com/JLaoo/Classifying-Anime-Characters-via-Transfer-Learning
 
 # Classifying the characters of New Game! with Transfer Learning
 
