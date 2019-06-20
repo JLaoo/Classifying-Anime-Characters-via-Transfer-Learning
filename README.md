@@ -7,7 +7,7 @@ Based off of Freedomofkeima's blog post found here: https://freedomofkeima.com/b
 # Steps
 
 1) scrape_images
-- Scrapes images from the first 3 pages of search results for the wanted characters via safebooru (not tryna get banned lmao).
+- Scrapes images from the first 3 pages of search results for the wanted characters via safebooru.
 - Saves these images in local directories.
 2) detect_faces
 - Using nagadomi's lbpcascade_animeface (https://github.com/nagadomi/lbpcascade_animeface) we can detect faces and save the cropped results to yet another local directory.
